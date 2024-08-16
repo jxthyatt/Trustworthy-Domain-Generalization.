@@ -3,5 +3,4 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 ## Replicate Demo and Results
 ### Federated DG under Distribution Heterogeneity ( :herb::herb: TABLE I)
-
-
+:rocket::rocket: We evaluate cross-client personalization under distribution heterogeneity and provide quantitative results and checkpoint files in demo “from Photo-Art-Cartoon to  Sketch”. ( :star: here model is tested on PACS dataset). Please view more details in TABLE I.
