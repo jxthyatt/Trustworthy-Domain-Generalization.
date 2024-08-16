@@ -5,6 +5,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 ### Federated DG under Distribution Heterogeneity ( :herb::herb: TABLE I)
 :rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch”. ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
+
 | Method               | PFL            | Pub’Year        | P(Y)      | P(X)      | P(Y|X)    | Gain                  | Checkpoint file                                                          |
 |----------------------|----------------|-----------------|-----------|-----------|-----------|-----------------------|--------------------------------------------------------------------------|
 | q-FFL                | &#10007;       | arXiv’19        | 11.76     | 13.75     | 14.50     | -                     | [Link](https://pan.baidu.com/s/17K2VJVJkjrY-KOUwDNOjoA) (Code: ses8)     |
