@@ -6,7 +6,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch”. ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
 
-| Method               | PFL            | Pub’Year        | P(Y)      | P(X)      | P(Y|X)    | Gain                  | Checkpoint file                                                          |
+| Method               | PFL            | Pub’Year        | P(Y)      | P(X)      | P(YX)    | Gain                  | Checkpoint file                                                          |
 |----------------------|----------------|-----------------|-----------|-----------|-----------|-----------------------|--------------------------------------------------------------------------|
 | q-FFL                | &#10007;       | arXiv’19        | 11.76     | 13.75     | 14.50     | -                     | [Link](https://pan.baidu.com/s/17K2VJVJkjrY-KOUwDNOjoA) (Code: ses8)     |
 | AFL                  | &#10007;       | ICML’19         | 74.83     | 69.91     | 47.08     | 11.6                  | [Link](https://pan.baidu.com/s/1TLcvC1kkKdAd80Tj5DIEfg) (Code: vtex)     |
