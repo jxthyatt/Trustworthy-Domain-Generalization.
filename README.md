@@ -41,10 +41,62 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | pFedMAP (ours)       | &#10003;       | TMM'24          | 77.02          | 74.67          | 35.56          | 37.68          | [Link](https://pan.baidu.com/s/1kUu0qBWRCxxVN7cYyu69zw) (Code: jp4v)     |
 
 
-:hotsprings: **Note:** PFL refers to personalized federated learning.  Types of distribution heterogeneity include label distribution of P(Y), marginal distribution of P(X), conditional distribution of P(YIX), and joint distribution of P(X,Y).
+:hotsprings: **Note:** PFL refers to personalized federated learning. Types of distribution heterogeneity include label distribution of P(Y), marginal distribution of P(X), conditional distribution of P(YIX), and joint distribution of P(X,Y).
 
 
 ### Federated DG for Facial Expression Recognition ( :herb::herb: TABLE II)
 :rocket::rocket: We evaluate cross-client **personalization** under “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
+
+
+| Method               | PFL            | Pub’Year        | RAF-DB         | ExpW           | FER2013        | Avg.           | Checkpoint file                                                          |
+|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | AISTATS’17      | 52.18          | 60.00          | 52.60          | 54.93          | [Link]() (Code: f3kf)     |
+| q-FFL                | &#10007;       | arXiv’19        | 14.35          | 14.25          | 10.76          | 13.12          | [Link]() (Code: a2bx)     |
+| AFL                  | &#10007;       | ICML’19         | 44.02          | 51.05          | 47.39          | 47.49          | [Link]() (Code: q1by)     |
+| FedProx              | &#10007;       | MLSys’20        | 42.25          | 50.48          | 44.43          | 45.72          | [Link]() (Code: mycg)     |
+| Local                | &#10003;       | -               | 40.09          | 49.92          | 43.89          | 44.64          | [Link]() (Code: 55pw)     |
+| FedAvg+              | &#10003;       | arXiv’19        | 52.67          | 59.21          | 52.21          | 54.70          | [Link]() (Code: 7utu)     |
+| L2SGD                | &#10003;       | NeurIPS’20      | 35.82          | 42.17          | 40.06          | 39.35          | [Link]() (Code: g3rj)     |
+| pFedMe               | &#10003;       | NeurIPS’20      | 38.87          | 44.20          | 40.02          | 41.03          | [Link]() (Code: krt3)     |
+| ClusteredFL          | &#10003;       | TNNLS’20        | 67.22          | 57.93          | 52.65          | 53.15          | [Link]() (Code: ab18)     |
+| FedEM                | &#10003;       | NeurIPS’21      | 51.08          | 58.59          | 53.91          | 54.53          | [Link]() (Code: 1c3n)     |
+| FedGMM               | &#10003;       | ICML’23         | 50.76          | 57.36          | 52.81          | 53.64          | [Link]() (Code: mt6f)     |
+| pFedMAP (ours)       | &#10003;       | TMM'24          | 52.17          | 58.88          | 54.33          | 55.12          | [Link]() (Code: ymrv)     |
+
+
+:airplane::airplane: We evaluate out-of-client **generalization** under “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
+
+
+| Method               | PFL            | Pub’Year        | RAF-DB         | ExpW           | FER2013        | Avg.           | Checkpoint file                                                          |
+|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | AISTATS’17      | 30.07          | 21.58          | 28.52          | 26.72          | [Link]() (Code: f3kf)     |
+| q-FFL                | &#10007;       | arXiv’19        | 11.62          | 13.49          | 13.05          | 12.72          | [Link]() (Code: a2bx)     |
+| AFL                  | &#10007;       | ICML’19         | 26.49          | 12.17          | 17.73          | 18.80          | [Link]() (Code: q1by)     |
+| FedProx              | &#10007;       | MLSys’20        | 28.86          | 19.26          | 15.37          | 21.16          | [Link]() (Code: mycg)     |
+| Local                | &#10003;       | -               | 15.64          | 15.31          | 14.55          | 15.17          | [Link]() (Code: 55pw)     |
+| FedAvg+              | &#10003;       | arXiv’19        | 32.16          | 27.98          | 40.08          | 33.40          | [Link]() (Code: 7utu)     |
+| L2SGD                | &#10003;       | NeurIPS’20      | 25.09          | 21.96          | 27.94          | 25.00          | [Link]() (Code: g3rj)     |
+| pFedMe               | &#10003;       | NeurIPS’20      | 25.57          | 39.02          | 27.65          | 30.75          | [Link]() (Code: krt3)     |
+| ClusteredFL          | &#10003;       | TNNLS’20        | 14.14          | 13.93          | 15.22          | 14.43          | [Link]() (Code: ab18)     |
+| FedEM                | &#10003;       | NeurIPS’21      | 41.45          | 38.83          | 28.28          | 36.19          | [Link]() (Code: 1c3n)     |
+| FedGMM               | &#10003;       | ICML’23         | 38.31          | 44.54          | 35.89          | 39.58          | [Link]() (Code: mt6f)     |
+| pFedMAP (ours)       | &#10003;       | TMM'24          | 40.34          | 49.56          | 53.18          | 47.69          | [Link]() (Code: ymrv)     |
+
+
+:hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed under Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (RAF-DB) to hold out as a target client while using others (FER2013 and ExpW) as source clients.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
