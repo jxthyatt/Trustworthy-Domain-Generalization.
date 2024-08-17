@@ -45,7 +45,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 
 ### Federated DG for Facial Expression Recognition ( :herb::herb: TABLE II)
-:rocket::rocket: We evaluate cross-client **personalization** under “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
+:rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
 
 
 | Method               | PFL            | Pub’Year        | RAF-DB         | ExpW           | FER2013        | Avg.           | Checkpoint file                                                          |
@@ -64,7 +64,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | pFedMAP (ours)       | &#10003;       | TMM'24          | 52.17          | 58.88          | 54.33          | 55.12          | [Link]() (Code: ymrv)     |
 
 
-:airplane::airplane: We evaluate out-of-client **generalization** under “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
+:airplane::airplane: We evaluate out-of-client **generalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
 
 
 | Method               | PFL            | Pub’Year        | RAF-DB         | ExpW           | FER2013        | Avg.           | Checkpoint file                                                          |
@@ -83,7 +83,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | pFedMAP (ours)       | &#10003;       | TMM'24          | 40.34          | 49.56          | 53.18          | 47.69          | [Link]() (Code: ymrv)     |
 
 
-:hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed under Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (RAF-DB) to hold out as a target client while using others (FER2013 and ExpW) as source clients.
+:hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (RAF-DB) to hold out as a target client while using others (FER2013 and ExpW) as source clients.
 
 
 
