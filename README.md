@@ -44,7 +44,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** PFL refers to personalized federated learning. Types of distribution heterogeneity include label distribution of P(Y), marginal distribution of P(X), conditional distribution of P(YIX), and joint distribution of P(X,Y).
 
 
-### Federated DG for Facial Expression Recognition ( :herb::herb: TABLE II)
+### Federated DG for Facial Emotion Recognition ( :herb::herb: TABLE II)
 :rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
 
 
