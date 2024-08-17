@@ -3,7 +3,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 ## Replicate Demo and Results
 ### Federated DG under Distribution Heterogeneity ( :herb::herb: TABLE I)
-:rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch”. ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
+:rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
 
 | Method               | PFL            | Pub’Year        | P(Y)           | P(X)           | P(Y&#124;X)    | P(X,Y)         | Checkpoint file                                                          |
@@ -22,7 +22,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | pFedMAP (ours)       | &#10003;       | TMM'24          | 76.99          | 70.89          | 76.62          | 68.05          | [Link](https://pan.baidu.com/s/1PuTTOWyt2_kXJbChN0_3nQ) (Code: ymrv)     |
 
 
-:airplane::airplane: We evaluate out-of-client **generalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch”. ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
+:airplane::airplane: We evaluate out-of-client **generalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
 
 | Method               | PFL            | Pub’Year        | P(Y)           | P(X)           | P(Y&#124;X)    | P(X,Y)         | Checkpoint file                                                          |
@@ -43,5 +43,8 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 :hotsprings: **Note:** PFL refers to personalized federated learning.  Types of distribution heterogeneity include label distribution of P(Y), marginal distribution of P(X), conditional distribution of P(YIX), and joint distribution of P(X,Y).
 
+
+### Federated DG in Facial Expression Recognition ( :herb::herb: TABLE II)
+:rocket::rocket: We evaluate cross-client **personalization** under “Leave-One-Domain-Out” experiments ( :star: here model is performed on [RAF-DB](http://www.whdeng.cn/raf/model1.html), [ExpW](https://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), and [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) datasets). Please view more details in TABLE II.
 
 
