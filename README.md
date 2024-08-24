@@ -128,8 +128,8 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (Photo) to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
 
 
-### Multimodal DG from Cityscapes to ACDC-fog ( :herb::herb: TABLE V)
-:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-fog :foggy: dataset). Please view more details in TABLE V.
+### Multimodal DG from Cityscapes to ACDC-Fog ( :foggy::foggy: TABLE V)
+:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Fog dataset). Please view more details in TABLE V.
 
 
 | Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
@@ -149,8 +149,8 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link](https://pan.baidu.com/s/1buWyvyVZnfpdP-xjZZOIjA) (Code: rctv)     |
 
 
-### Multimodal DG from Cityscapes to ACDC-night ( :herb::herb: TABLE X)
-:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-night :night_with_stars: dataset). Please view more details in TABLE X.
+### Multimodal DG from Cityscapes to ACDC-Night ( :night_with_stars::night_with_stars: TABLE X)
+:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Night dataset). Please view more details in TABLE X.
 
 
 | Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
@@ -170,8 +170,8 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
 
 
-### Multimodal DG from Cityscapes to ACDC-rain ( :herb::herb: TABLE XI)
-:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-rain :cloud_with_rain: dataset). Please view more details in TABLE XI.
+### Multimodal DG from Cityscapes to ACDC-Rain ( :cloud_with_rain::cloud_with_rain: TABLE XI)
+:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Rain dataset). Please view more details in TABLE XI.
 
 
 | Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
@@ -191,8 +191,8 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
 
 
-### Multimodal DG from Cityscapes to ACDC-snow ( :herb::herb: TABLE XII)
-:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-snow :snowflake: dataset). Please view more details in TABLE XII.
+### Multimodal DG from Cityscapes to ACDC-Snow ( :snowflake::snowflake: TABLE XII)
+:rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Snow dataset). Please view more details in TABLE XII.
 
 
 | Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
