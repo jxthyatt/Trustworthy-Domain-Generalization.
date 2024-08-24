@@ -90,9 +90,9 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE IV.
 
 
-| Method               | PFL            | Pub’Year        | Photo          | Art            | Cartoon        | Sketch         | Checkpoint file                                                          |
-|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
-| FedAvg               | &#10007;       | AISTATS’17      | 68.88          | 73.56          | 63.42          | 65.73          | [Link](https://pan.baidu.com/s/13hpYaT1lmY-PZ5qjA8D8Hw) (Code: kpm1)     |
+| Method               | PFL            | Pub’Year        | Photo          | Art            | Cartoon        | Sketch         | Avg.         | Checkpoint file                                                          |
+|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | AISTATS’17      | 68.88          | 73.56          | 63.42          | 65.73          | 67.90          | [Link](https://pan.baidu.com/s/13hpYaT1lmY-PZ5qjA8D8Hw) (Code: kpm1)     |
 | q-FFL                | &#10007;       | arXiv’19        | 13.74          | 17.53          | 17.62          | 15.45          | [Link](https://pan.baidu.com/s/1j6m3f6CQKnjGQjq_hJV4AA) (Code: t26g)     |
 | AFL                  | &#10007;       | ICML’19         | 65.11          | 69.18          | 59.62          | 59.62          | [Link](https://pan.baidu.com/s/1CuelacLoa4uWHhDMAxGgcA) (Code: t579)     |
 | FedProx              | &#10007;       | MLSys’20        | 60.61          | 65.10          | 58.54          | 60.27          | [Link](https://pan.baidu.com/s/1YJd98c6wndZ4YZTEEtpweg) (Code: nvas)     |
