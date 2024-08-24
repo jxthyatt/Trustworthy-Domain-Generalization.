@@ -86,8 +86,24 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (RAF-DB) to hold out as a target client while using others (FER2013 and ExpW) as source clients.
 
 
+### Federated DG for General Object Classification ( :herb::herb: TABLE IV)
+:rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE IV.
 
 
+| Method               | PFL            | Pub’Year        | Photo          | Art            | Cartoon        | Sketch         | Checkpoint file                                                          |
+|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | AISTATS’17      | 68.88          | 73.56          | 63.42          | 65.73          | [Link](https://pan.baidu.com/s/13hpYaT1lmY-PZ5qjA8D8Hw) (Code: kpm1)     |
+| q-FFL                | &#10007;       | arXiv’19        | 13.74          | 17.53          | 17.62          | 15.45          | [Link](https://pan.baidu.com/s/1j6m3f6CQKnjGQjq_hJV4AA) (Code: t26g)     |
+| AFL                  | &#10007;       | ICML’19         | 65.11          | 69.18          | 59.62          | 59.62          | [Link](https://pan.baidu.com/s/1CuelacLoa4uWHhDMAxGgcA) (Code: t579)     |
+| FedProx              | &#10007;       | MLSys’20        | 60.61          | 65.10          | 58.54          | 60.27          | [Link](https://pan.baidu.com/s/1YJd98c6wndZ4YZTEEtpweg) (Code: nvas)     |
+| Local                | &#10003;       | -               | 66.99          | 76.56          | 53.12          | 57.12          | [Link](https://pan.baidu.com/s/14n2nwoOdsEtGi41JdJmCVQ) (Code: 4p2m)     |
+| FedAvg+              | &#10003;       | arXiv’19        | 71.98          | 74.71          | 62.06          | 63.41          | [Link](https://pan.baidu.com/s/1JBEVJrYWchZ-zcrxy3Tocg) (Code: 4qm5)     |
+| L2SGD                | &#10003;       | NeurIPS’20      | 65.59          | 73.25          | 51.22          | 53.93          | [Link](https://pan.baidu.com/s/16RQWIbr2RLSJ2ScMF5rPBg) (Code: weuz)     |
+| pFedMe               | &#10003;       | NeurIPS’20      | 62.68          | 70.10          | 50.14          | 55.80          | [Link](https://pan.baidu.com/s/1sb8kvQCthcnyFAAv-oKjPA) (Code: 4bn5)     |
+| ClusteredFL          | &#10003;       | TNNLS’20        | 69.79          | 70.87          | 61.79          | 64.74          | [Link](https://pan.baidu.com/s/1lYinvDXpZ_AAp8VzbOB3HQ) (Code: vs7u)     |
+| FedEM                | &#10003;       | NeurIPS’21      | 69.61          | 77.25          | 59.89          | 66.06          | [Link](https://pan.baidu.com/s/1r4GxP238BqTYdrDDiFy9bQ) (Code: y556)     |
+| FedGMM               | &#10003;       | ICML’23         | 72.22          | 80.09          | 63.14          | 64.07          | [Link](https://pan.baidu.com/s/1cC15SjxnqzmFvD87IUpCAw) (Code: zm3a)     |
+| pFedMAP (ours)       | &#10003;       | TMM'24          | 78.18          | 81.09          | 63.96          | 68.05          | [Link](https://pan.baidu.com/s/1LacuWVhlL5tpD5dG5E9fzw) (Code: exke)     |
 
 
 
