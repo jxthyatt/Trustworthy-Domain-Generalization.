@@ -132,7 +132,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Fog dataset). Please view more details in TABLE V.
 
 
-| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
 |------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
 | AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link](https://pan.baidu.com/s/1sVbqQ8NeyYS2dDUc0exmkQ) (Code: 8bca)     |
 | CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link](https://pan.baidu.com/s/1ckj2X0jDu70jzpgowWytLQ) (Code: edpz)     |
@@ -149,11 +149,14 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link](https://pan.baidu.com/s/1buWyvyVZnfpdP-xjZZOIjA) (Code: rctv)     |
 
 
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
+
+
 ### Multimodal DG from Cityscapes to ACDC-Night ( :night_with_stars::night_with_stars: TABLE X)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Night dataset). Please view more details in TABLE X.
 
 
-| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
 |------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
 | AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
 | CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
@@ -168,13 +171,16 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
 | MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+
+
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Rain ( :cloud_with_rain::cloud_with_rain: TABLE XI)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Rain dataset). Please view more details in TABLE XI.
 
 
-| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
 |------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
 | AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
 | CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
@@ -189,13 +195,16 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
 | MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+
+
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Snow ( :snowflake::snowflake: TABLE XII)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Snow dataset). Please view more details in TABLE XII.
 
 
-| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
 |------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
 | AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
 | CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
@@ -212,5 +221,6 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
 
 
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
 
 
