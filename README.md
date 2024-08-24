@@ -90,24 +90,42 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE IV.
 
 
-| Method               | PFL            | Pub’Year        | Photo          | Art            | Cartoon        | Sketch         | Avg.         | Checkpoint file                                                          |
-|----------------------|----------------|-----------------|----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
-| FedAvg               | &#10007;       | AISTATS’17      | 68.88          | 73.56          | 63.42          | 65.73          | 67.90          | [Link](https://pan.baidu.com/s/13hpYaT1lmY-PZ5qjA8D8Hw) (Code: kpm1)     |
-| q-FFL                | &#10007;       | arXiv’19        | 13.74          | 17.53          | 17.62          | 15.45          | [Link](https://pan.baidu.com/s/1j6m3f6CQKnjGQjq_hJV4AA) (Code: t26g)     |
-| AFL                  | &#10007;       | ICML’19         | 65.11          | 69.18          | 59.62          | 59.62          | [Link](https://pan.baidu.com/s/1CuelacLoa4uWHhDMAxGgcA) (Code: t579)     |
-| FedProx              | &#10007;       | MLSys’20        | 60.61          | 65.10          | 58.54          | 60.27          | [Link](https://pan.baidu.com/s/1YJd98c6wndZ4YZTEEtpweg) (Code: nvas)     |
-| Local                | &#10003;       | -               | 66.99          | 76.56          | 53.12          | 57.12          | [Link](https://pan.baidu.com/s/14n2nwoOdsEtGi41JdJmCVQ) (Code: 4p2m)     |
-| FedAvg+              | &#10003;       | arXiv’19        | 71.98          | 74.71          | 62.06          | 63.41          | [Link](https://pan.baidu.com/s/1JBEVJrYWchZ-zcrxy3Tocg) (Code: 4qm5)     |
-| L2SGD                | &#10003;       | NeurIPS’20      | 65.59          | 73.25          | 51.22          | 53.93          | [Link](https://pan.baidu.com/s/16RQWIbr2RLSJ2ScMF5rPBg) (Code: weuz)     |
-| pFedMe               | &#10003;       | NeurIPS’20      | 62.68          | 70.10          | 50.14          | 55.80          | [Link](https://pan.baidu.com/s/1sb8kvQCthcnyFAAv-oKjPA) (Code: 4bn5)     |
-| ClusteredFL          | &#10003;       | TNNLS’20        | 69.79          | 70.87          | 61.79          | 64.74          | [Link](https://pan.baidu.com/s/1lYinvDXpZ_AAp8VzbOB3HQ) (Code: vs7u)     |
-| FedEM                | &#10003;       | NeurIPS’21      | 69.61          | 77.25          | 59.89          | 66.06          | [Link](https://pan.baidu.com/s/1r4GxP238BqTYdrDDiFy9bQ) (Code: y556)     |
-| FedGMM               | &#10003;       | ICML’23         | 72.22          | 80.09          | 63.14          | 64.07          | [Link](https://pan.baidu.com/s/1cC15SjxnqzmFvD87IUpCAw) (Code: zm3a)     |
-| pFedMAP (ours)       | &#10003;       | TMM'24          | 78.18          | 81.09          | 63.96          | 68.05          | [Link](https://pan.baidu.com/s/1LacuWVhlL5tpD5dG5E9fzw) (Code: exke)     |
+| Method               | PFL            | Photo          | Art            | Cartoon        | Sketch         | Avg.           | Checkpoint file                                                          |
+|----------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | 68.88          | 73.56          | 63.42          | 65.73          | 67.90          | [Link](https://pan.baidu.com/s/13hpYaT1lmY-PZ5qjA8D8Hw) (Code: kpm1)     |
+| q-FFL                | &#10007;       | 13.74          | 17.53          | 17.62          | 15.45          | 16.09          | [Link](https://pan.baidu.com/s/1j6m3f6CQKnjGQjq_hJV4AA) (Code: t26g)     |
+| AFL                  | &#10007;       | 65.11          | 69.18          | 59.62          | 59.62          | 63.38          | [Link](https://pan.baidu.com/s/1CuelacLoa4uWHhDMAxGgcA) (Code: t579)     |
+| FedProx              | &#10007;       | 60.61          | 65.10          | 58.54          | 60.27          | 61.13          | [Link](https://pan.baidu.com/s/1YJd98c6wndZ4YZTEEtpweg) (Code: nvas)     |
+| Local                | &#10003;       | 66.99          | 76.56          | 53.12          | 57.12          | 63.45          | [Link](https://pan.baidu.com/s/14n2nwoOdsEtGi41JdJmCVQ) (Code: 4p2m)     |
+| FedAvg+              | &#10003;       | 71.98          | 74.71          | 62.06          | 63.41          | 68.04          | [Link](https://pan.baidu.com/s/1JBEVJrYWchZ-zcrxy3Tocg) (Code: 4qm5)     |
+| L2SGD                | &#10003;       | 65.59          | 73.25          | 51.22          | 53.93          | 61.00          | [Link](https://pan.baidu.com/s/16RQWIbr2RLSJ2ScMF5rPBg) (Code: weuz)     |
+| pFedMe               | &#10003;       | 62.68          | 70.10          | 50.14          | 55.80          | 59.68          | [Link](https://pan.baidu.com/s/1sb8kvQCthcnyFAAv-oKjPA) (Code: 4bn5)     |
+| ClusteredFL          | &#10003;       | 69.79          | 70.87          | 61.79          | 64.74          | 66.80          | [Link](https://pan.baidu.com/s/1lYinvDXpZ_AAp8VzbOB3HQ) (Code: vs7u)     |
+| FedEM                | &#10003;       | 69.61          | 77.25          | 59.89          | 66.06          | 68.20          | [Link](https://pan.baidu.com/s/1r4GxP238BqTYdrDDiFy9bQ) (Code: y556)     |
+| FedGMM               | &#10003;       | 72.22          | 80.09          | 63.14          | 64.07          | 69.88          | [Link](https://pan.baidu.com/s/1cC15SjxnqzmFvD87IUpCAw) (Code: zm3a)     |
+| pFedMAP (ours)       | &#10003;       | 78.18          | 81.09          | 63.96          | 68.05          | 72.82          | [Link](https://pan.baidu.com/s/1LacuWVhlL5tpD5dG5E9fzw) (Code: exke)     |
 
 
+:airplane::airplane: We evaluate out-of-client **generalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE IV.
 
 
+| Method               | PFL            | Photo          | Art            | Cartoon        | Sketch         | Avg.           | Checkpoint file                                                          |
+|----------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------------------------------------------------------|
+| FedAvg               | &#10007;       | 50.00          | 52.08          | 34.95          | 41.73          | 44.69          | [Link](https://pan.baidu.com/s/1XXGtO-v2GRCUJAmPYPiliQ) (Code: ubty)     |
+| q-FFL                | &#10007;       | 19.23          | 8.33           | 13.78          | 14.69          | 14.01          | [Link](https://pan.baidu.com/s/111A4F0qAkesNRPfFNSdjsQ) (Code: 764z)     |
+| AFL                  | &#10007;       | 23.08          | 46.88          | 20.67          | 15.91          | 26.64          | [Link](https://pan.baidu.com/s/1THLNPxao0JVc8gmSUs9akQ) (Code: tsaj)     |
+| FedProx              | &#10007;       | 26.92          | 44.79          | 28.37          | 21.88          | 30.49          | [Link](https://pan.baidu.com/s/1Iy1oCMisR5TUr6Q-w-xYnw) (Code: bjdm)     |
+| Local                | &#10003;       | 26.92          | 12.50          | 18.34          | 15.99          | 18.44          | [Link](https://pan.baidu.com/s/1E11n2HkvRc6Zu_BlfPfD4A) (Code: sim3)     |
+| FedAvg+              | &#10003;       | 46.15          | 60.42          | 50.91          | 36.40          | 48.47          | [Link](https://pan.baidu.com/s/1EU-2aQTJl_UQVzbBoc0u_w) (Code: hqs1)     |
+| L2SGD                | &#10003;       | 26.92          | 31.25          | 22.09          | 25.03          | 26.32          | [Link](https://pan.baidu.com/s/1U0sbHocKmmm1FxPBCrZhOA) (Code: 9dbh)     |
+| pFedMe               | &#10003;       | 19.23          | 37.50          | 22.80          | 22.98          | 25.63          | [Link](https://pan.baidu.com/s/1qzQcUd0jwM08KQtYox3mfw) (Code: 559w)     |
+| ClusteredFL          | &#10003;       | 23.08          | 12.50          | 16.82          | 20.04          | 18.11          | [Link](https://pan.baidu.com/s/12AZ2KEeFQcTvAJr3iTxp1w) (Code: c5rk)     |
+| FedEM                | &#10003;       | 57.69          | 61.46          | 27.96          | 23.53          | 42.66          | [Link](https://pan.baidu.com/s/1YKzNpLwn7dfJIq4TeXg1eQ) (Code: ujbb)     |
+| FedGMM               | &#10003;       | 46.15          | 70.83          | 28.98          | 31.43          | 44.35          | [Link](https://pan.baidu.com/s/1zXXU40VhyE6ozel7tQOCgw) (Code: ayyd)     |
+| pFedMAP (ours)       | &#10003;       | 50.00          | 72.92          | 36.58          | 37.68          | 49.30          | [Link](https://pan.baidu.com/s/1_8bgOcDpHZho0bSDk3Tfbg) (Code: y84y)     |
+
+
+:hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (Photo) to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
 
 
 
