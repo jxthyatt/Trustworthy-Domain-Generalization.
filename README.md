@@ -128,8 +128,83 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (Photo) to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
 
 
+### Multimodal DG from Cityscapes to ACDC-fog ( :herb::herb: TABLE V)
 
 
+
+| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link](https://pan.baidu.com/s/1sVbqQ8NeyYS2dDUc0exmkQ) (Code: 8bca)     |
+| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link](https://pan.baidu.com/s/1ckj2X0jDu70jzpgowWytLQ) (Code: edpz)     |
+| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link](https://pan.baidu.com/s/1tbxJYOgj-ZmrAoMyaP7xjw) (Code: dv3a)     |
+| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link](https://pan.baidu.com/s/1QhYIrumQtE6MJtF_eFgbSw) (Code: bc6j)     |
+| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link](https://pan.baidu.com/s/1utlh90pPn2pZ34_VAA8tZw) (Code: vpse)     |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link](https://pan.baidu.com/s/1xu-_xbGwFqlEfCUWF1lGlw) (Code: f29b)     |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link](https://pan.baidu.com/s/16DFzu7snPsHTvlByx0aWPg) (Code: c2c7)     |
+| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link](https://pan.baidu.com/s/1NGZ_BiPQsEyxoeu610giWA) (Code: dmg8)     |
+| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link](https://pan.baidu.com/s/1zNOVk3vbFcNPWrKlGYQL0g) (Code: 2k2m)     |
+| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link](https://pan.baidu.com/s/1YMqptA60QyyLp1c2D-4q8g) (Code: swms)     |
+| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link](https://pan.baidu.com/s/1_OFT94IvSrHY1nhlHP20Iw) (Code: gu5y)     |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link](https://pan.baidu.com/s/1buWyvyVZnfpdP-xjZZOIjA) (Code: rctv)     |
+
+
+### Multimodal DG from Cityscapes to ACDC-night ( :herb::herb: TABLE X)
+
+| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
+| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
+| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link]() (Code: ppdu)     |
+| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link]() (Code: f63p)     |
+| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link]() (Code: hpfg)     |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link]() (Code: cgkp)     |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link]() (Code: spfj)     |
+| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link]() (Code: dtm3)     |
+| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link]() (Code: rxv3)     |
+| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
+| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+
+
+### Multimodal DG from Cityscapes to ACDC-rain ( :herb::herb: TABLE XI)
+
+| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
+| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
+| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link]() (Code: ppdu)     |
+| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link]() (Code: f63p)     |
+| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link]() (Code: hpfg)     |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link]() (Code: cgkp)     |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link]() (Code: spfj)     |
+| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link]() (Code: dtm3)     |
+| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link]() (Code: rxv3)     |
+| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
+| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+
+
+### Multimodal DG from Cityscapes to ACDC-snow ( :herb::herb: TABLE XII)
+
+
+| Method                       | PST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
+| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
+| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link]() (Code: ppdu)     |
+| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link]() (Code: f63p)     |
+| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link]() (Code: hpfg)     |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link]() (Code: cgkp)     |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link]() (Code: spfj)     |
+| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link]() (Code: dtm3)     |
+| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link]() (Code: rxv3)     |
+| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
+| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
 
 
 
