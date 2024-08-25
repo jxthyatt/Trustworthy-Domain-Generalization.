@@ -164,7 +164,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | CIConv                       | &#10007;       | ICCV’21             | 58.3            | 56.7            | -1.6                  | [Link](https://pan.baidu.com/s/1ckj2X0jDu70jzpgowWytLQ) (Code: edpz)     |
 | RobustNet                    | &#10007;       | CVPR’21             | 61.5            | 61.8            | 0.3                   | [Link](https://pan.baidu.com/s/1tbxJYOgj-ZmrAoMyaP7xjw) (Code: dv3a)     |
 | SNR                          | &#10007;       | TMM’21              | 50.3            | 51.9            | 1.6                   | [Link](https://pan.baidu.com/s/1QhYIrumQtE6MJtF_eFgbSw) (Code: bc6j)     |
-| WildNet                      | &#10007;       | CVPR’22             | 50.3            | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
+| WildNet                      | &#10007;       | CVPR’22             | 50.3            | 58.7            | 8.4                   | [Link](https://pan.baidu.com/s/1IhdRUOzjOkd6ne5-7VokUQ) (Code: emwt)     |
 | CLIPstyler (fast)            | &#10003;       | CVPR’22             | 50.3            | 51.6            | 1.3                   | [Link](https://pan.baidu.com/s/1utlh90pPn2pZ34_VAA8tZw) (Code: vpse)     |
 | CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.3            | 50.4            | 0.1                   | [Link](https://pan.baidu.com/s/1xu-_xbGwFqlEfCUWF1lGlw) (Code: f29b)     |
 | DiffusionCLIP                | &#10003;       | CVPR’22             | 50.3            | 34.3            | -16.0                 | [Link](https://pan.baidu.com/s/16DFzu7snPsHTvlByx0aWPg) (Code: c2c7)     |
@@ -188,7 +188,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | CIConv                       | &#10007;       | ICCV’21             | 23.9            | 25.5            | 1.6                   | [Link](https://pan.baidu.com/s/11aa5qRb1LzfNnpKDfu2-_g) (Code: kde2)     |
 | RobustNet                    | &#10007;       | CVPR’21             | 6.8             | 20.1            | 13.3                  | [Link](https://pan.baidu.com/s/1jxKz7f1doKYew4PTGmhoJw) (Code: e2nt)     |
 | SNR                          | &#10007;       | TMM’21              | 15.3            | 23.3            | 8.0                   | [Link](https://pan.baidu.com/s/1xK0DHd5FRkbq6AiSCKMq0Q) (Code: q648)     |
-| WildNet                      | &#10007;       | CVPR’22             | 15.3            | 24.0            | 8.7                   | [Link]() (Code: vsfp)     |
+| WildNet                      | &#10007;       | CVPR’22             | 15.3            | 24.0            | 8.7                   | [Link](https://pan.baidu.com/s/1724TIhnKxE2P8OqEUqQ4uQ) (Code: rfrn)     |
 | CLIPstyler (fast)            | &#10003;       | CVPR’22             | 15.3            | 18.3            | 3.0                   | [Link](https://pan.baidu.com/s/1RQGMePco7FHw77dZdpxt7Q) (Code: vfdj)     |
 | CLIPstyler (opti)            | &#10003;       | CVPR’22             | 15.3            | 24.0            | 8.7                   | [Link](https://pan.baidu.com/s/1RsflSI7yCHUPk3jpolC-Ng) (Code: qdse)     |
 | DiffusionCLIP                | &#10003;       | CVPR’22             | 15.3            | 14.7            | -0.6                  | [Link](https://pan.baidu.com/s/1jNy5MWQnB8zYCZlVu6iB2A) (Code: 3fu3)     |
@@ -212,7 +212,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | CIConv                       | &#10007;       | ICCV’21             | 42.5            | 41.5            | -1.0                  | [Link](https://pan.baidu.com/s/1KsIx7dx249MKci-mPz1qig) (Code: whr9)     |
 | RobustNet                    | &#10007;       | CVPR’21             | 48.1            | 50.9            | 2.8                   | [Link](https://pan.baidu.com/s/1RdbfEpfeBP-w8sg-QiLh4Q) (Code: rw9w)     |
 | SNR                          | &#10007;       | TMM’21              | 36.9            | 40.2            | 3.3                   | [Link](https://pan.baidu.com/s/1Yr9a80momBXv4qdHonOwVg) (Code: w2t6)     |
-| WildNet                      | &#10007;       | CVPR’22             | 36.9            | 45.2            | 8.3                   | [Link]() (Code: vsfp)     |
+| WildNet                      | &#10007;       | CVPR’22             | 36.9            | 45.2            | 8.3                   | [Link](https://pan.baidu.com/s/1VHRx1WuZQkCc6mtFPXvaiw) (Code: 47p9)     |
 | CLIPstyler (fast)            | &#10003;       | CVPR’22             | 36.9            | 37.8            | 0.9                   | [Link](https://pan.baidu.com/s/1pfpmjqWrbgSLmPoQe4_PPg) (Code: kd42)     |
 | CLIPstyler (opti)            | &#10003;       | CVPR’22             | 36.9            | 36.3            | -0.6                  | [Link](https://pan.baidu.com/s/1n4eBgroWSDOTuFehBKVZww) (Code: nwdf)     |
 | DiffusionCLIP                | &#10003;       | CVPR’22             | 36.9            | 29.6            | -7.3                  | [Link](https://pan.baidu.com/s/19H1j0TBVsnIYPIzI8ZYpmg) (Code: dgpr)     |
@@ -236,7 +236,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | CIConv                       | &#10007;       | ICCV’21             | 45.1            | 46.0            | 0.9                   | [Link](https://pan.baidu.com/s/1bs79Q8bWt7l8-gITCgX19Q) (Code: dhkq)     |
 | RobustNet                    | &#10007;       | CVPR’21             | 42.4            | 46.1            | 3.7                   | [Link](https://pan.baidu.com/s/1iLx0ufiTQKvLpUaSOKL8rw) (Code: t7uw)     |
 | SNR                          | &#10007;       | TMM’21              | 38.2            | 42.8            | 4.6                   | [Link](https://pan.baidu.com/s/18xl9TqpvpY2SKhXFgnmnew) (Code: ecy3)     |
-| WildNet                      | &#10007;       | CVPR’22             | 38.2            | 42.8            | 4.6                   | [Link]() (Code: vsfp)       |
+| WildNet                      | &#10007;       | CVPR’22             | 38.2            | 42.8            | 4.6                   | [Link](https://pan.baidu.com/s/1ivMufXTnAZSfdJqBayZ-wQ) (Code: dujn)     |
 | CLIPstyler (fast)            | &#10003;       | CVPR’22             | 38.2            | 40.1            | 1.9                   | [Link](https://pan.baidu.com/s/11XeoRePtoyJEQqTKnXpJjg) (Code: k5nt)     |
 | CLIPstyler (opti)            | &#10003;       | CVPR’22             | 38.2            | 43.7            | 5.5                   | [Link](https://pan.baidu.com/s/1lKsvZ7gWqJ-TSTj1cfS0uA) (Code: 8797)     |
 | DiffusionCLIP                | &#10003;       | CVPR’22             | 38.2            | 36.5            | -1.7                  | [Link](https://pan.baidu.com/s/1pNO8T4oddXxGxrR3mdvc_A) (Code: nkmg)     |
