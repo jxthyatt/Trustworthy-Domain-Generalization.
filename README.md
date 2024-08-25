@@ -3,7 +3,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 ## Replicate Demo and Results
 ### Federated DG under Client Heterogeneity ( :herb::herb: TABLE I)
-:rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
+:rocket::rocket: We evaluate cross-client **personalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
 
 | Method               | PFL            | Pub’Year        | P(Y)           | P(X)           | P(Y&#124;X)    | P(X,Y)         | Checkpoint file                                                          |
@@ -22,7 +22,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | pFedMAP (ours)       | &#10003;       | TMM'24          | 76.99          | 70.89          | 76.62          | 68.05          | [Link](https://pan.baidu.com/s/1PuTTOWyt2_kXJbChN0_3nQ) (Code: ymrv)     |
 
 
-:airplane::airplane: We evaluate out-of-client **generalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to  Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
+:airplane::airplane: We evaluate out-of-client **generalization** under distribution heterogeneity in demo “from Photo-Art-Cartoon to Sketch” ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) dataset). Please view more details in TABLE I.
 
 
 | Method               | PFL            | Pub’Year        | P(Y)           | P(X)           | P(Y&#124;X)    | P(X,Y)         | Checkpoint file                                                          |
@@ -151,7 +151,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | MobileNetv2      | 37.68                  | 50.00                  | 57.02                  | 75.76                  | 55.12          | [Link]() (Code: q9f7)     |
 
 
-:hotsprings: **Note:** All backbones for ablation study are deployed in Leave-One-Domain-Out experiments, e.g., PAC :arrow_right: S means the federated DG from Photo-Art-Cartoon to  Sketch where one domain (Photo) is chosen to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
+:hotsprings: **Note:** All backbones for ablation study are deployed in Leave-One-Domain-Out experiments, e.g., PAC :arrow_right: S means the federated DG from Photo-Art-Cartoon to Sketch where one domain (Sketch) is chosen to hold out as a target client while using others (Photo, Art and Cartoon) as source clients.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Fog ( :foggy::foggy: TABLE V)
