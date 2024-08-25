@@ -151,7 +151,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | MobileNetv2      | 37.68                  | 50.00                  | 57.02                  | 75.76                  | 55.12          | [Link]() (Code: q9f7)     |
 
 
-:hotsprings: **Note:** All backbones for ablation study are deployed in Leave-One-Domain-Out experiments, e.g., the PAC :arrow_right: S means federated DG from Photo-Art-Cartoon to  Sketch where one domain (Photo) is chosen to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
+:hotsprings: **Note:** All backbones for ablation study are deployed in Leave-One-Domain-Out experiments, e.g., PAC :arrow_right: S means the federated DG from Photo-Art-Cartoon to  Sketch where one domain (Photo) is chosen to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Fog ( :foggy::foggy: TABLE V)
