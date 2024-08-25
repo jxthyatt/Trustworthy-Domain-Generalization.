@@ -149,7 +149,7 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 49.2            | 61.8            | 12.6                  | [Link](https://pan.baidu.com/s/1buWyvyVZnfpdP-xjZZOIjA) (Code: rctv)     |
 
 
-:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance between source and target domains.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Night ( :night_with_stars::night_with_stars: TABLE X)
@@ -173,31 +173,31 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 20.9            | 32.8            | 11.9                  | [Link]() (Code: gsrt)                                                    |
 
 
-:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance between source and target domains.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Rain ( :cloud_with_rain::cloud_with_rain: TABLE XI)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Rain dataset). Please view more details in TABLE XI.
 
 
-| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
-|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
-| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
-| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
-| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link]() (Code: ppdu)     |
-| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link]() (Code: f63p)     |
-| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
-| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link]() (Code: hpfg)     |
-| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link]() (Code: cgkp)     |
-| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link]() (Code: spfj)     |
-| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link]() (Code: dtm3)     |
-| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link]() (Code: rxv3)     |
-| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
-| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
-| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+| Method                       | LST            | Pub’Year            | Source mIoU     | Target mIoU     | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 36.9            | 39.5            | 2.6                   | [Link]() (Code: sb24)     |
+| CIConv                       | &#10007;       | ICCV’21             | 42.5            | 41.5            | -1.0                  | [Link]() (Code: pkvf)     |
+| RobustNet                    | &#10007;       | CVPR’21             | 48.1            | 50.9            | 2.8                   | [Link]() (Code: ppdu)     |
+| SNR                          | &#10007;       | TMM’21              | 36.9            | 40.2            | 3.3                   | [Link]() (Code: f63p)     |
+| WildNet                      | &#10007;       | CVPR’22             | 36.9            | 45.2            | 8.3                   | [Link]() (Code: vsfp)     |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 36.9            | 37.8            | 0.9                   | [Link]() (Code: hpfg)     |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 36.9            | 36.3            | -0.6                  | [Link]() (Code: cgkp)     |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 36.9            | 29.6            | -7.3                  | [Link]() (Code: spfj)     |
+| LDAST                        | &#10003;       | ECCV’22             | 36.9            | 36.4            | -0.5                  | [Link]() (Code: dtm3)     |
+| TxST                         | &#10003;       | CVPR’23             | 36.9            | 32.8            | -4.1                  | [Link]() (Code: rxv3)     |
+| PODA                         | &#10003;       | ICCV’23             | 35.6            | 43.1            | 7.5                   | [Link]() (Code: v376)     |
+| MMIST                        | &#10003;       | WACV’24             | 36.9            | 33.9            | -3.0                  | [Link]() (Code: bv4s)     |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 40.5            | 52.4            | 11.9                  | [Link]() (Code: gsrt)     |
 
 
-:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance between source and target domains.
 
 
 ### Multimodal DG from Cityscapes to ACDC-Snow ( :snowflake::snowflake: TABLE XII)
@@ -221,6 +221,6 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DRIVE (ours)                 | &#10003;       | TMM'24              | 39.8            | 54.6            | 14.8                  | [Link]() (Code: gsrt)                                                    |
 
 
-:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
+:hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance between source and target domains.
 
 
