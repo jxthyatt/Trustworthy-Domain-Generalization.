@@ -128,6 +128,18 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** PFL refers to personalized federated learning. All methods for federated DG are deployed in Leave-One-Domain-Out experiments, e.g., the first column means choosing one domain (Photo) to hold out as a target client while using others (Art, Cartoon and Sketch) as source clients.
 
 
+### Ablation Study on pFedMAP ( :herb::herb: TABLE III)
+:rocket::rocket: We evaluate cross-client **personalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE III.
+
+
+| Backbone         | PAC :arrow_right: S    | ACS :arrow_right: P    | VLC :arrow_right: S    | LCS :arrow_right: V    | Avg.           | Checkpoint file                               |
+|------------------|------------------------|------------------------|------------------------|------------------------|----------------|--------------------------------------------------------------------------|
+| ResNet18         | 63.91                  | 76.84                  | 61.85                  | 67.13                  | 67.43          | [Link](https://pan.baidu.com/s/1CqLfKJifu3PCF-XNbTOCEg) (Code: 9hbu)     |
+| ResNet34         | 64.74                  | 77.39                  | 63.74                  | 67.96                  | 68.46          | [Link](https://pan.baidu.com/s/10qRzWhXgmak9_lVKDt5_7Q) (Code: qeze)     |
+| ResNet50         | 65.40                  | 80.79                  | 64.05                  | 69.28                  | 69.88          | [Link](https://pan.baidu.com/s/1tBNu37TfZOrSI76H6IzuhA) (Code: u2hi)     |
+| MobileNetv2      | 68.05                  | 78.18                  | 65.15                  | 69.62                  | 70.25          | [Link](https://pan.baidu.com/s/1NUXwWxBV11R6e2lSYFSqjA) (Code: q9f7)     |
+
+
 ### Multimodal DG from Cityscapes to ACDC-Fog ( :foggy::foggy: TABLE V)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Fog dataset). Please view more details in TABLE V.
 
