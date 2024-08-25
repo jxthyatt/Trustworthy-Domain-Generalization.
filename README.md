@@ -204,21 +204,21 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Snow dataset). Please view more details in TABLE XII.
 
 
-| Method                       | LST            | Pub’Year            | mIoU            | Gain                  | Checkpoint file                                                          |
-|------------------------------|----------------|---------------------|-----------------|-----------------------|--------------------------------------------------------------------------|
-| AdaIN                        | &#10007;       | ICCV’17             | 44.9            | -5.4                  | [Link]() (Code: sb24)     |
-| CIConv                       | &#10007;       | ICCV’21             | 56.7            | -1.6                  | [Link]() (Code: pkvf)     |
-| RobustNet                    | &#10007;       | CVPR’21             | 61.8            | 0.3                   | [Link]() (Code: ppdu)     |
-| SNR                          | &#10007;       | TMM’21              | 51.9            | 1.6                   | [Link]() (Code: f63p)     |
-| WildNet                      | &#10007;       | CVPR’22             | 58.7            | 8.4                   | [Link]() (Code: vsfp)     |
-| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 51.6            | 1.3                   | [Link]() (Code: hpfg)     |
-| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 50.4            | 0.1                   | [Link]() (Code: cgkp)     |
-| DiffusionCLIP                | &#10003;       | CVPR’22             | 34.3            | -16.0                 | [Link]() (Code: spfj)     |
-| LDAST                        | &#10003;       | ECCV’22             | 36.6            | -13.7                 | [Link]() (Code: dtm3)     |
-| TxST                         | &#10003;       | CVPR’23             | 36.7            | -13.6                 | [Link]() (Code: rxv3)     |
-| PODA                         | &#10003;       | ICCV’23             | 53.2            | 9.5                   | [Link]() (Code: v376)     |
-| MMIST                        | &#10003;       | WACV’24             | 47.5            | -2.8                  | [Link]() (Code: bv4s)     |
-| DRIVE (ours)                 | &#10003;       | TMM'24              | 61.8            | 12.6                  | [Link]() (Code: gsrt)     |
+| Method                       | LST            | Pub’Year            | Source mIoU     | Target mIoU     | Gain                  | Checkpoint file                                                          |
+|------------------------------|----------------|---------------------|-----------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                        | &#10007;       | ICCV’17             | 38.2            | 43.3            | 5.1                   | [Link]() (Code: sb24)                                                    |
+| CIConv                       | &#10007;       | ICCV’21             | 45.1            | 46.0            | 0.9                   | [Link]() (Code: pkvf)                                                    |
+| RobustNet                    | &#10007;       | CVPR’21             | 42.4            | 46.1            | 3.7                   | [Link]() (Code: ppdu)                                                    |
+| SNR                          | &#10007;       | TMM’21              | 38.2            | 42.8            | 4.6                   | [Link]() (Code: f63p)                                                    |
+| WildNet                      | &#10007;       | CVPR’22             | 38.2            | 42.8            | 4.6                   | [Link]() (Code: vsfp)                                                    |
+| CLIPstyler (fast)            | &#10003;       | CVPR’22             | 38.2            | 40.1            | 1.9                   | [Link]() (Code: hpfg)                                                    |
+| CLIPstyler (opti)            | &#10003;       | CVPR’22             | 38.2            | 43.7            | 5.5                   | [Link]() (Code: cgkp)                                                    |
+| DiffusionCLIP                | &#10003;       | CVPR’22             | 38.2            | 36.5            | -1.7                  | [Link]() (Code: spfj)                                                    |
+| LDAST                        | &#10003;       | ECCV’22             | 38.2            | 35.7            | -2.5                  | [Link]() (Code: dtm3)                                                    |
+| TxST                         | &#10003;       | CVPR’23             | 38.2            | 39.1            | 0.9                   | [Link]() (Code: rxv3)                                                    |
+| PODA                         | &#10003;       | ICCV’23             | 36.4            | 45.1            | 8.7                   | [Link]() (Code: v376)                                                    |
+| MMIST                        | &#10003;       | WACV’24             | 38.2            | 35.6            | -2.6                  | [Link]() (Code: bv4s)                                                    |
+| DRIVE (ours)                 | &#10003;       | TMM'24              | 39.8            | 54.6            | 14.8                  | [Link]() (Code: gsrt)                                                    |
 
 
 :hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance.
