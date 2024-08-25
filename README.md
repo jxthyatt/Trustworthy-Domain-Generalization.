@@ -267,6 +267,15 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | DiffusionCLIP                     | 25.55           | 13.64           | 21.04           | 23.13           | 20.84                 | [Link]() (Code: tuv7)     |
 | :heavy_plus_sign: PODA (baseline) | 28.05           | 15.78           | 28.86           | 26.96           | 24.91                 | [Link]() (Code: r6v6)     |
 | :heavy_plus_sign: DRIVE (ours)    | 34.43           | 22.07           | 40.68           | 36.59           | 33.44                 | [Link]() (Code: n1vj)     |
+| LDAST                             | 36.06           | 15.73           | 31.87           | 32.63           | 29.07                 | [Link]() (Code: tuv7)     |
+| :heavy_plus_sign: PODA (baseline) | 33.47           | 16.95           | 34.47           | 34.13           | 29.76                 | [Link]() (Code: r6v6)     |
+| :heavy_plus_sign: DRIVE (ours)    | 46.84           | 23.86           | 50.02           | 50.95           | 42.92                 | [Link]() (Code: n1vj)     |
+| MMIST                             | 29.79           | 16.24           | 26.83           | 21.60           | 23.62                 | [Link]() (Code: tuv7)     |
+| :heavy_plus_sign: PODA (baseline) | 32.02           | 15.45           | 28.26           | 23.39           | 24.78                 | [Link]() (Code: r6v6)     |
+| :heavy_plus_sign: DRIVE (ours)    | 43.32           | 24.43           | 36.08           | 35.58           | 34.85                 | [Link]() (Code: n1vj)     |
+| TxST                              | 29.07           | 13.72           | 26.23           | 19.93           | 22.24                 | [Link]() (Code: tuv7)     |
+| :heavy_plus_sign: PODA (baseline) | 30.28           | 19.52           | 30.92           | 26.02           | 26.69                 | [Link]() (Code: r6v6)     |
+| :heavy_plus_sign: DRIVE (ours)    | 39.55           | 30.54           | 44.37           | 43.61           | 39.52                 | [Link]() (Code: n1vj)     |
 
 
 
