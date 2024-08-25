@@ -250,3 +250,35 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 :hotsprings: **Note:** LST refers to language-driven style transfer in either image-level space or feature-level space. Gain denotes as mean IoU gain on overall 19-class performance between source and target domains.
 
 
+### Ablation Study on DRIVE ( :herb::herb: TABLE VI)
+
+
+| Method                          | Fog             | Night           | Rain            | Snow            | Avg.                  | Checkpoint file                                                          |
+|---------------------------------|-----------------|-----------------|-----------------|-----------------|-----------------------|--------------------------------------------------------------------------|
+| AdaIN                           | 30.65           | 22.68           | 35.05           | 32.53           | 30.23                 | [Link]() (Code: 2dgc)     |
+| :heavy_plus_sign: PODA          | 30.34           | 23.04           | 36.97           | 32.12           | 30.62                 | [Link]() (Code: dhkq)     |
+| :heavy_plus_sign: DRIVE (ours)  | 44.89           | 28.83           | 42.01           | 46.11           | 40.46                 | [Link]() (Code: t7uw)     |
+| CLIPstyler (fast)               | 33.18           | 14.71           | 30.97           | 30.79           | 27.41                 | [Link]() (Code: ecy3)     |
+| :heavy_plus_sign: PODA          | 39.22           | 19.70           | 35.95           | 34.44           | 32.33                 | [Link]() (Code: vsfp)     |
+| :heavy_plus_sign: DRIVE (ours)  | 44.42           | 32.54           | 40.52           | 44.32           | 40.45                 | [Link]() (Code: k5nt)     |
+| CLIPstyler (opti)               | 43.61           | 22.39           | 35.40           | 36.70           | 34.53                 | [Link]() (Code: 8797)     |
+| :heavy_plus_sign: PODA          | 43.84           | 23.02           | 39.19           | 39.63           | 36.42                 | [Link]() (Code: nkmg)     |
+| :heavy_plus_sign: DRIVE (ours)  | 53.82           | 31.56           | 45.89           | 50.18           | 45.36                 | [Link]() (Code: g1m4)     |
+| DiffusionCLIP                   | 25.55           | 13.64           | 21.04           | 23.13           | 20.84                 | [Link]() (Code: tuv7)     |
+| :heavy_plus_sign: PODA          | 28.05           | 15.78           | 28.86           | 26.96           | 24.91                 | [Link]() (Code: r6v6)     |
+| :heavy_plus_sign: DRIVE (ours)  | 34.43           | 22.07           | 40.68           | 36.59           | 33.44                 | [Link]() (Code: n1vj)     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
