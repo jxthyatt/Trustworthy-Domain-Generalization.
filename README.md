@@ -140,6 +140,19 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 | MobileNetv2      | 68.05                  | 78.18                  | 65.15                  | 69.62                  | 70.25          | [Link](https://pan.baidu.com/s/1NUXwWxBV11R6e2lSYFSqjA) (Code: q9f7)     |
 
 
+:airplane::airplane: We evaluate out-of-client **generalization** in “Leave-One-Domain-Out” experiments ( :star: here model is performed on [PACS](https://datasets.activeloop.ai/docs/ml/datasets/pacs-dataset/) and [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8) datasets). Please view more details in TABLE III.
+
+
+| Backbone         | PAC :arrow_right: S    | ACS :arrow_right: P    | VLC :arrow_right: S    | LCS :arrow_right: V    | Avg.           | Checkpoint file                               |
+|------------------|------------------------|------------------------|------------------------|------------------------|----------------|--------------------------------------------------------------------------|
+| ResNet18         | 45.96                  | 50.00                  | 52.02                  | 68.18                  | 54.04          | [Link]() (Code: 9hbu)     |
+| ResNet34         | 36.58                  | 53.85                  | 43.67                  | 65.91                  | 50.00          | [Link]() (Code: qeze)     |
+| ResNet50         | 30.70                  | 46.15                  | 52.71                  | 59.85                  | 47.35          | [Link]() (Code: u2hi)     |
+| MobileNetv2      | 37.68                  | 50.00                  | 57.02                  | 75.76                  | 55.12          | [Link]() (Code: q9f7)     |
+
+
+
+
 ### Multimodal DG from Cityscapes to ACDC-Fog ( :foggy::foggy: TABLE V)
 :rocket::rocket: We provide quantitative results and checkpoint files in demo “from [Cityscapes](https://www.cityscapes-dataset.com/) to [ACDC](https://acdc.vision.ee.ethz.ch/overview)” ( :star: here model is tested on ACDC-Fog dataset). Please view more details in TABLE V.
 
