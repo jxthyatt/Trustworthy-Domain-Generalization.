@@ -145,10 +145,10 @@ Official repository for the submitted paper “Both Multi-silo and Multi-modalit
 
 | Backbone         | PAC :arrow_right: S    | ACS :arrow_right: P    | VLC :arrow_right: S    | LCS :arrow_right: V    | Avg.           | Checkpoint file                               |
 |------------------|------------------------|------------------------|------------------------|------------------------|----------------|--------------------------------------------------------------------------|
-| ResNet18         | 45.96                  | 50.00                  | 52.02                  | 68.18                  | 54.04          | [Link]() (Code: 9hbu)     |
-| ResNet34         | 36.58                  | 53.85                  | 43.67                  | 65.91                  | 50.00          | [Link]() (Code: qeze)     |
-| ResNet50         | 30.70                  | 46.15                  | 52.71                  | 59.85                  | 47.35          | [Link]() (Code: u2hi)     |
-| MobileNetv2      | 37.68                  | 50.00                  | 57.02                  | 75.76                  | 55.12          | [Link]() (Code: q9f7)     |
+| ResNet18         | 45.96                  | 50.00                  | 52.02                  | 68.18                  | 54.04          | [Link](https://pan.baidu.com/s/1sbOiMyiYseoXiZmQt5qYLQ) (Code: n34r)     |
+| ResNet34         | 36.58                  | 53.85                  | 43.67                  | 65.91                  | 50.00          | [Link](https://pan.baidu.com/s/1htvjKP53fOuF8ZWm49RW1w) (Code: dxsh)     |
+| ResNet50         | 30.70                  | 46.15                  | 52.71                  | 59.85                  | 47.35          | [Link](https://pan.baidu.com/s/1Bs_zea-pIBxxvIDhKIX88Q) (Code: c52a)     |
+| MobileNetv2      | 37.68                  | 50.00                  | 57.02                  | 75.76                  | 55.12          | [Link](https://pan.baidu.com/s/1In08_CtJrY3wdeCpDYR1xw) (Code: 63m2)     |
 
 
 :hotsprings: **Note:** All backbones for ablation study are deployed in Leave-One-Domain-Out experiments, e.g., PAC :arrow_right: S means the federated DG from Photo-Art-Cartoon to Sketch where one domain (Sketch) is chosen to hold out as a target client while using others (Photo, Art and Cartoon) as source clients.
